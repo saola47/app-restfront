@@ -77,8 +77,6 @@ function Handler(params) {
             next();
           }
         });
-      } else {
-        next();
       }
     });
     return router;
